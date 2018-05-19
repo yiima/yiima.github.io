@@ -1,0 +1,106 @@
+/*一马科技*/
+.yiima-header{
+    height:662px;
+    background:url(../images/yima/bg.png);
+  }
+  .yiima-header li a{
+    color:#999;
+  }
+  .yiima-header-menu>img{
+  position: absolute;
+  }
+  .yiima-header-bgDetail-f{
+    left: 75px;
+  }
+  .yiima-header-bgDetail-f span:first-child{
+    color: #dbdbdb;
+    font-size: 36px;
+    text-align: left;
+    padding-bottom: 18px;
+  }
+  .yiima-header-bgDetail-f span:last-child{
+    font-size: 60px;
+    color: #c4c4c4;
+    text-align: left;
+  }
+  .yiima-concept{
+    height:600px;
+    background:#f5f5f5;
+  }
+  .yiima-content-concept{
+    height:100px;
+  }
+  .yiima-content-conceptList{
+    margin-left:45px;
+    margin-top:112px;
+  }
+  .yiima-content-concept span:first-child{
+    font-size: 30px;
+    color: #464d56;
+    line-height: 120px;
+  }
+  .yiima-content-concept span:last-child{
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    margin-top: -40px;
+    font-weight: normal;
+  }
+  .yiima-content-concept-f span{
+    font-size:18px;
+    color:#575757;
+    font-weight: bold;
+    text-align: left;
+  }
+  .yiima-content-concept-f span.concept-txt1{
+    padding-left: 95px;
+  }
+  .yiima-content-concept-f span.concept-txt2{
+    padding-left: 120px;
+  }
+  .yiima-content-concept-f span.concept-txt3{
+    padding-left: 170px;
+  }
+  .yiima-content-charaterList{
+    height:282px;
+    margin-left:0;
+  }
+  .yiima-content-charaterList .col-xs-3{
+    border:1px solid #e5e5e5;
+    height:100%;
+    width:282px;
+    margin-right:22px;
+    border-radius: 5px;
+  }
+  .yiima-content-charaterList .col-xs-3:last-child{
+    margin-right:0;
+  }
+  .yiima-content-charaterList-img{
+    height: 180px;
+    text-align: center;
+    padding-top: 28px;
+  }
+  .yiima-content-charaterList-img span{
+    display:block;
+    font-size:20px;
+    color:#333;
+    line-height: 75px;
+  }
+  .yiima-content-charaterList-des{
+    font-size: 14px;
+    color: #666;
+    line-height: 26px;
+    padding: 0 20px;
+    display: block;
+  }
+  .yiima-content-charater-center{
+    margin-right: 5px;
+    margin-top:16px;
+    border:1px solid #e5e5e5;
+    border-radius: 5px;
+    height:282px;
+  }
+  .yiima-content-charater-center>div{
+    width:682px;
+    margin:0 auto;
+  }

@@ -1,0 +1,316 @@
+body {
+ /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+a {
+  color: #00B7FF;
+}
+li{
+  list-style: none;
+}
+li a,li a:link{
+  color: inherit;
+  text-decoration: none;
+}
+li a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+li a:hover{
+  color: inherit;
+  text-decoration: none;
+}
+li a:active{
+  color: inherit;
+  text-decoration: none;
+}
+/*浩海云*/
+.HaoHaiYun-header{
+  background:url(../images/haohaiyun/bg.png) no-repeat center;
+  height:1080px;
+}
+.HaoHaiYun-center{
+  width:1200px;
+  margin:0 auto;
+}
+.HaoHaiYun-header-menu{
+  height:160px;
+  position: relative;
+  top: 70px;
+}
+.HaoHaiYun-header-menu ul{
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.HaoHaiYun-header-menu ul li{
+  font-size:16px;
+  color:#ddd;
+  float:left;
+  padding: 0 30px;
+}
+.HaoHaiYun-header-menu ul li:last-child{
+  padding: 0 0 0 30px;
+}
+.HaoHaiYun-header-bgDetail{
+  height:360px;
+  position: relative;
+}
+.HaoHaiYun-header-bgDetail-f{
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.HaoHaiYun-header-bgDetail-f span:first-child{
+  display:block;
+  color:#fff;
+  font-size:60px;
+  text-align: right;
+  padding-bottom: 7px;
+}
+.HaoHaiYun-header-bgDetail-f span:last-child{
+  display:block;
+  color:#eee;
+  font-size:36px;
+  text-align: right;
+}
+.HaoHaiYun-content-services{
+  height:220px;
+}
+.HaoHaiYun-content-services>span{
+  display: block;
+  color:#464d56;
+  font-size:48px;
+  font-weight:bold;
+  text-align: center;
+  line-height:220px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.HaoHaiYun-content-serversImg{
+  text-align: center;
+  padding: 20px;
+}
+.HaoHaiYun-content-serversImg img{
+  width:121px;
+  height:121px;
+}
+.HaoHaiYun-content-servers-f{
+  color:#da5555;
+  font-size:32px;
+}
+.HaoHaiYun-content-servers-f>span{
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.HaoHaiYun-content-bgIcon{
+  height:238px;
+}
+.HaoHaiYun-content-bgIcon .HaoHaiYun-content-icon{
+  display: block;
+  width: 247px;
+  height: 224px;
+  margin: 0 auto;
+  margin-top: 95px;
+  background: url(../images/haohaiyun/decorate.png) center no-repeat;
+  position: relative;
+}
+.HaoHaiYun-content-icon span{
+  position: absolute;
+  display: block;
+}
+.HaoHaiYun-content-icon span:first-child{
+  color: #333;
+  font-size: 48px;
+  top: 65px;
+  left: 45px;
+  font-weight: bold;
+}
+.HaoHaiYun-content-icon span:last-child{
+  color: #666;
+  font-size: 30px;
+  bottom: 55px;
+  left: 45px;
+}
+.HaoHaiYun-introduce-tree{
+  height:440px;
+  margin:0;
+  position: relative;
+}
+.circle-icon-t:before{
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e5e5e5;
+  position: absolute;
+  left: 49.6%;
+  top: -5px;
+}
+.circle-icon-b:before{
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e5e5e5;
+  position: absolute;
+  left: 49.6%;
+  bottom: -5px;
+}
+.HaoHaiYun-introduce-tree .col-xs-6{
+  height:100%;
+}
+.HaoHaiYun-introduce-tree .col-xs-6:first-child{
+  border-right:2px solid #e5e5e5;
+}
+.HaoHaiYun-introduce-tree .col-xs-6:first-child:after{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4187db;
+  position: absolute;
+  right: -11px;
+  top: 80px;
+}
+.HaoHaiYun-introduce-tree .col-xs-6 img{
+  margin: 0 auto;
+  display: block;
+  margin-top: 90px;
+}
+.HaoHaiYun-content-introduce-detail{
+  margin-top:68px;
+  margin-left:30px;
+}
+.float-r{
+  float:right;
+}
+.HaoHaiYun-content-introduce-detail span{
+  color:#333;
+  font-size:30px;
+  font-weight:bold;
+  display: block;
+}
+.HaoHaiYun-content-introduce-detailName{
+  text-align: right;
+}
+.HaoHaiYun-content-introduce-detail>ul{
+  width:66%;
+}
+.HaoHaiYun-content-introduce-detail>ul li{
+  font-size:14px;
+  color:#666;
+  margin-top:35px;
+  line-height:25px;
+  position: relative;
+}
+.HaoHaiYun-content-introduce-detail>ul li:before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #8db8eb;
+  border-radius: 50%;
+  position: absolute;
+  left: -40px;
+  top: 20px;
+}
+.HaoHaiYun-content-about{
+  height:295px;
+  width: 74%;
+  margin: 0 auto;
+}
+.HaoHaiYun-content-about span:first-child{
+  margin-top:40px;
+  line-height:128px;
+  display: block;
+  color: #464d56;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.HaoHaiYun-content-about span:last-child{
+  color:#464d56;
+  font-size:16px;
+  line-height:28px;
+}
+.HaoHaiYun-content-about-img{
+  margin:0;
+  margin-top:85px;
+}
+.HaoHaiYun-content-contact{
+  width: 75%;
+  margin: 0 auto;
+  height:450px;
+}
+.HaoHaiYun-content-contactName{
+  height:170px;
+  line-height: 200px;
+  display: block;
+  color: #464d56;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.HaoHaiYun-content-contact-erweima{
+  width:156px;
+  margin:0 auto;
+}
+.HaoHaiYun-content-contact-erweima>span,.HaoHaiYun-content-contact-contact span{
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  font-size:19px;
+  color:#333;
+}
+.HaoHaiYun-content-contact-contact{
+  width:325px;
+  margin:0 auto;
+}
+.HaoHaiYun-content-contact-contact span{
+  text-align: left;
+}
+.HaoHaiYun-content-contact-contact ul{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+.HaoHaiYun-content-contact-contact li{
+  line-height:30px;
+}
+.HaoHaiYun-content-contact-contact label{
+  font-size: 16px;
+  color: #999;
+  padding-left: 20px;
+}
+.HaoHaiYun-footer{
+  text-align: center;
+  height: 200px;
+  background: url(../images/haohaiyun/footer.png) center;
+}
+.HaoHaiYun-footer img{
+  padding-top: 20px;
+  padding-bottom:25px;
+}
+.HaoHaiYun-footer .HaoHaiYun-center{
+  border-bottom:1px solid #4b4e50;
+}
+.footer-copyright{
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  color: #bbb;
+  margin-top: 33px;
+}
+.footer-copyright:last-child{
+  color:#999;
+  margin-top: -15px;
+}
