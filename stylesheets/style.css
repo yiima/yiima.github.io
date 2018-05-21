@@ -4,7 +4,9 @@ body {
   margin:0;
   padding:0;
 }
-
+.mainContent .row{
+  margin:0;
+}
 a {
   color: #00B7FF;
 }
@@ -313,4 +315,6 @@ li a:active{
 .footer-copyright:last-child{
   color:#999;
   margin-top: -15px;
+  height: 41px;
+  overflow: hidden;
 }
